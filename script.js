@@ -155,7 +155,7 @@ function updateView() {
                 mainText.className = '';
 
                 // Final Content
-                mainText.innerHTML = "Désolée pour tout ce stress.<br>Veux-tu être mon Valentin ?";
+                mainText.innerHTML = "Désolée pour tout ce stress.<br>Hansi, veux-tu être mon Valentin ?";
                 subText.innerText = "J'avais juste très envie que tu dises oui 🥰";
 
                 actionBtn.innerText = "OUI !";
@@ -315,7 +315,7 @@ function updateView() {
             sureNoBtn.addEventListener('click', () => {
                 // STATE N5B: The Bounce
                 mainText.innerText = "Attends... peut-être pas...";
-                subText.innerText = "Veux-tu être mon Valentin ?";
+                subText.innerText = "Hansi, veux-tu être mon Valentin ?";
 
                 btnContainer.innerHTML = ''; // Clear previous buttons
 
