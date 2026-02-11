@@ -243,7 +243,7 @@ function updateView() {
             mainText.style.fontSize = ''; // Reset font size
 
             mainText.innerText = "Pourquoi je voulais absolument avoir ta réponse ?";
-            subText.innerText = "Et si aimer, c'était accepter le non ?";
+            subText.innerText = "Et si aimer finalement, c'était accepter le non ?";
 
             // Chaos overlay text
             setInterval(() => {
@@ -291,8 +291,8 @@ function updateView() {
             subText.className = '';
 
             // Step 1: Stabilization / Confirmation
-            mainText.innerText = "Merci d'avoir répondu sincèrement.";
-            subText.innerHTML = "Es-tu sûr(e) de ton choix ?";
+            mainText.innerText = "Merci d'avoir répondu sincèrement, mais...";
+            subText.innerHTML = "Es-tu sûr de ton choix ?";
 
             // Container for buttons
             const btnContainer = document.createElement('div');
