@@ -355,7 +355,7 @@ function closeOrVoid() {
     document.body.style.cursor = 'none';
 
     const voidText = document.createElement('div');
-    voidText.innerText = "Tu peux fermer cette fenêtre maintenant.";
+    voidText.innerText = "Bon... alors tu peux fermer cette fenêtre maintenant, je n'ai rien à rajouter.";
     voidText.style.color = '#333';
     voidText.style.fontFamily = 'monospace';
     voidText.style.marginTop = '20vh';
