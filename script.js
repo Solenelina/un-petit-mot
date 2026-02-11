@@ -109,7 +109,7 @@ function updateView() {
         case ACTS.DRUNK:
             mainText.innerText = "Je gère.";
             subText.innerText = "Enfin... je crois ? Non, en fait j'ai peur.";
-            actionBtn.innerText = "Courage...";
+            actionBtn.innerText = "Courage !";
             document.body.classList.add('drunk-1');
             mainText.classList.add('drunk-2');
             break;
